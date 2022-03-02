@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="apiAutomationTestSuites" >
+	<test name="apiAutomationTests">
+	<classes>
+		<class name="testcases.Get_Request_Test"/>
+	</classes>
+	</test>
+</suite>

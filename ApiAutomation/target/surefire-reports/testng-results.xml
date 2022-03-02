@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="apiAutomationTestSuites" duration-ms="2539" started-at="2022-03-02T06:51:08Z" finished-at="2022-03-02T06:51:11Z">
+    <groups>
+    </groups>
+    <test name="apiAutomationTests" duration-ms="2539" started-at="2022-03-02T06:51:08Z" finished-at="2022-03-02T06:51:11Z">
+      <class name="testcases.Get_Request_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Get_Request_Test@f6c48ac]" name="setup" is-config="true" duration-ms="42" started-at="2022-03-02T06:51:08Z" finished-at="2022-03-02T06:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getResponse()[pri:0, instance:testcases.Get_Request_Test@f6c48ac]" name="getResponse" is-config="true" duration-ms="2463" started-at="2022-03-02T06:51:08Z" finished-at="2022-03-02T06:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponse -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:testcases.Get_Request_Test@f6c48ac]" name="checkContentType" duration-ms="2" started-at="2022-03-02T06:51:11Z" finished-at="2022-03-02T06:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:testcases.Get_Request_Test@f6c48ac]" name="checkResponseBody" duration-ms="15" started-at="2022-03-02T06:51:11Z" finished-at="2022-03-02T06:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:testcases.Get_Request_Test@f6c48ac]" name="checkResponseTime" duration-ms="0" started-at="2022-03-02T06:51:11Z" finished-at="2022-03-02T06:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:testcases.Get_Request_Test@f6c48ac]" name="checkStatusCode" duration-ms="0" started-at="2022-03-02T06:51:11Z" finished-at="2022-03-02T06:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+      </class> <!-- testcases.Get_Request_Test -->
+    </test> <!-- apiAutomationTests -->
+  </suite> <!-- apiAutomationTestSuites -->
+</testng-results>

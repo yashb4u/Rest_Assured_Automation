@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [apiAutomationTestSuites]">
+  <test name="apiAutomationTests">
+    <classes>
+      <class name="testcases.Get_Request_Test"/>
+    </classes>
+  </test> <!-- apiAutomationTests -->
+</suite> <!-- Failed suite [apiAutomationTestSuites] -->
