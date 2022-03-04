@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="apiAutomationTestSuites" >
+    
+    <listeners>
+    	<listener class-name="extentReportListener.ExtentReporterNG"/>
+    </listeners>
+    
 	<test name="apiAutomationTests">
-	<classes>
-		<class name="testcases.Get_Request_Test"/>
-	</classes>
+		<classes>
+			<class name="testcases.Get_Request_Test"/>
+		</classes>
 	</test>
 </suite>

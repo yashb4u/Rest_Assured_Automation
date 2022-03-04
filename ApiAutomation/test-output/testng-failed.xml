@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite name="Failed suite [apiAutomationTestSuites]">
+  <listeners>
+    <listener class-name="extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="apiAutomationTests">
     <classes>
       <class name="testcases.Get_Request_Test"/>
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- apiAutomationTests -->
+</suite> <!-- Failed suite [apiAutomationTestSuites] -->
