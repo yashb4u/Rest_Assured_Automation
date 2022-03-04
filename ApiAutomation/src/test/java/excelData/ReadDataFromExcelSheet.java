@@ -124,7 +124,7 @@ public class ReadDataFromExcelSheet {
 	}
 	
 	public static String[][] sheetData() throws Exception{
-		String path = System.getProperty("user.dir")+"//src//test//java//testData//TestData.xlsx";
+		String path = System.getProperty("user.dir")+"//src//TestData.xlsx";
 		int rowCount = getRowCount(path, constants.SheetNames.SHEET_NAME);
 	    int celCount = getCellCount(path, constants.SheetNames.SHEET_NAME, 1);
 	    

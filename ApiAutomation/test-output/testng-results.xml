@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="apiAutomationTestSuites" duration-ms="4712" started-at="2022-03-02T06:31:57Z" finished-at="2022-03-02T06:32:02Z">
+  <suite name="Default suite" duration-ms="2610" started-at="2022-03-02T12:45:47Z" finished-at="2022-03-02T12:45:50Z">
     <groups>
     </groups>
-    <test name="apiAutomationTests" duration-ms="4712" started-at="2022-03-02T06:31:57Z" finished-at="2022-03-02T06:32:02Z">
+    <test name="Default test" duration-ms="2610" started-at="2022-03-02T12:45:47Z" finished-at="2022-03-02T12:45:50Z">
       <class name="testcases.Get_Request_Test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Get_Request_Test@337d0578]" name="setup" is-config="true" duration-ms="46" started-at="2022-03-02T12:01:57Z" finished-at="2022-03-02T12:01:57Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Get_Request_Test@61dc03ce]" name="setup" is-config="true" duration-ms="44" started-at="2022-03-02T18:15:48Z" finished-at="2022-03-02T18:15:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getResponse()[pri:0, instance:testcases.Get_Request_Test@337d0578]" name="getResponse" is-config="true" duration-ms="4622" started-at="2022-03-02T12:01:57Z" finished-at="2022-03-02T12:02:02Z">
+        <test-method status="PASS" signature="getResponse()[pri:0, instance:testcases.Get_Request_Test@61dc03ce]" name="getResponse" is-config="true" duration-ms="2531" started-at="2022-03-02T18:15:48Z" finished-at="2022-03-02T18:15:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponse -->
-        <test-method status="PASS" signature="checkContentType()[pri:0, instance:testcases.Get_Request_Test@337d0578]" name="checkContentType" duration-ms="6" started-at="2022-03-02T12:02:02Z" finished-at="2022-03-02T12:02:02Z">
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:testcases.Get_Request_Test@61dc03ce]" name="checkContentType" duration-ms="4" started-at="2022-03-02T18:15:50Z" finished-at="2022-03-02T18:15:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:testcases.Get_Request_Test@337d0578]" name="checkResponseBody" duration-ms="21" started-at="2022-03-02T12:02:02Z" finished-at="2022-03-02T12:02:02Z">
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:testcases.Get_Request_Test@61dc03ce]" name="checkResponseBody" duration-ms="15" started-at="2022-03-02T18:15:50Z" finished-at="2022-03-02T18:15:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:testcases.Get_Request_Test@337d0578]" name="checkResponseTime" duration-ms="1" started-at="2022-03-02T12:02:02Z" finished-at="2022-03-02T12:02:02Z">
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:testcases.Get_Request_Test@61dc03ce]" name="checkResponseTime" duration-ms="2" started-at="2022-03-02T18:15:50Z" finished-at="2022-03-02T18:15:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:testcases.Get_Request_Test@337d0578]" name="checkStatusCode" duration-ms="1" started-at="2022-03-02T12:02:02Z" finished-at="2022-03-02T12:02:02Z">
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:testcases.Get_Request_Test@61dc03ce]" name="checkStatusCode" duration-ms="1" started-at="2022-03-02T18:15:50Z" finished-at="2022-03-02T18:15:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
       </class> <!-- testcases.Get_Request_Test -->
-    </test> <!-- apiAutomationTests -->
-  </suite> <!-- apiAutomationTestSuites -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

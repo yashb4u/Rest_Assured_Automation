@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 import base.TestBase;
 import constants.ParametersConst;
 import io.restassured.RestAssured;
+import io.restassured.http.Header;
+import io.restassured.http.Headers;
 import io.restassured.http.Method;
 
 public class Get_Request_Test extends TestBase{
@@ -21,6 +23,16 @@ public class Get_Request_Test extends TestBase{
 		RestAssured.baseURI = ParametersConst.GET_REQRES_BASE_URL;
 		httpRequest = RestAssured.given();
 		response = httpRequest.request(Method.GET,ParametersConst.GET_REQRES_PATH_PARAM);
+		
+//		Headers header = response.headers();
+//		for(Header eachHeader:header) {
+//			String contentType = eachHeader.getName().trim();
+//			
+//			if(contentType.equals("Content-Type")) {
+//				System.out.println("Value of content type ="+eachHeader.getValue());
+//			}
+//			System.out.println(eachHeader.getName()+"  ---  "+eachHeader.getValue());
+//		}
 		
 		Thread.sleep(3);
 	}
