@@ -7,7 +7,7 @@
     
 	<test name="apiAutomationTests">
 		<classes>
-			<class name="testcases.Get_Request_Test"/>
+			<class name="testcases.Post_Request_Test"/>
 		</classes>
 	</test>
 </suite>

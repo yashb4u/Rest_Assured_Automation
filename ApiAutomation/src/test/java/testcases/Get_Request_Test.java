@@ -3,16 +3,22 @@ package testcases;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import base.TestBase;
 import constants.ParametersConst;
+import excelData.ReadDataFromExcelSheet;
 import io.restassured.RestAssured;
-import io.restassured.http.Header;
-import io.restassured.http.Headers;
 import io.restassured.http.Method;
 
 public class Get_Request_Test extends TestBase{
+	
+	@DataProvider
+	public Object[][] getData() throws Exception {
+		Object data[][] = ReadDataFromExcelSheet.sheetData();
+		return data;
+	}
 
 	@BeforeClass
 	public void getResponse() throws InterruptedException 
@@ -37,7 +43,7 @@ public class Get_Request_Test extends TestBase{
 		Thread.sleep(3);
 	}
 	
-	@Test
+	
 	public void checkResponseBody()
 	{
 		logger.info("********* Checking Response Body ********");

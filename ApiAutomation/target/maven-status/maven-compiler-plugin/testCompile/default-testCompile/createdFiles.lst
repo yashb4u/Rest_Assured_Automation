@@ -1,9 +1,11 @@
 testcases\Patch_Request_Test.class
 testcases\Put_Request_Test.class
 base\TestBase.class
+test\LoginTest.class
 testcases\Delete_Request_Test.class
 testcases\Get_Request_Test.class
 constants\ParametersConst.class
 excelData\ReadDataFromExcelSheet.class
 testcases\Post_Request_Test.class
+extentReportListener\ExtentReporterNG.class
 constants\SheetNames.class
