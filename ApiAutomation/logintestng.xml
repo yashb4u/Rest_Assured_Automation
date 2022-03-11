@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="apiAutomationTestSuites" >
-    
-    <listeners>
-    	<listener class-name="extentReportListener.ExtentReporterNG"/>
-    </listeners>
-    
-	<test name="LoginTest">
-		<classes>
-			<class name="test.LoginTest"/>
-		</classes>
-	</test>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="RegressionTest">
+<!-- Suite -->
+<listeners>
+
+<listener class-name="Resources.ExtentReportListener"/>
+
+</listeners>
+
+<test name="LoginTest">
+<classes>
+
+<class name="test.LoginTest"/>
+
+</classes>
+</test>
 </suite>
