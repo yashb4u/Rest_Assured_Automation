@@ -7,5 +7,4 @@ testcases\Get_Request_Test.class
 constants\ParametersConst.class
 excelData\ReadDataFromExcelSheet.class
 testcases\Post_Request_Test.class
-extentReportListener\ExtentReporterNG.class
 constants\SheetNames.class

@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="apiAutomationTestSuites" duration-ms="54886" started-at="2022-03-11T10:04:16Z" finished-at="2022-03-11T10:05:11Z">
+  <suite name="RegressionTest" duration-ms="68891" started-at="2022-03-11T10:23:02Z" finished-at="2022-03-11T10:24:11Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="54886" started-at="2022-03-11T10:04:16Z" finished-at="2022-03-11T10:05:11Z">
+    <test name="LoginTest" duration-ms="68891" started-at="2022-03-11T10:23:02Z" finished-at="2022-03-11T10:24:11Z">
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="open_the_LoginPage_Url()[pri:1, instance:test.LoginTest@3bfdc050]" name="open_the_LoginPage_Url" duration-ms="18129" started-at="2022-03-11T10:04:16Z" finished-at="2022-03-11T10:04:34Z">
+        <test-method status="PASS" signature="open_the_LoginPage_Url()[pri:1, instance:test.LoginTest@1bce4f0a]" name="open_the_LoginPage_Url" duration-ms="33204" started-at="2022-03-11T10:23:02Z" finished-at="2022-03-11T10:23:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_the_LoginPage_Url -->
-        <test-method status="PASS" signature="enter_valid_username_and_invalid_password()[pri:2, instance:test.LoginTest@3bfdc050]" name="enter_valid_username_and_invalid_password" duration-ms="5647" started-at="2022-03-11T10:04:34Z" finished-at="2022-03-11T10:04:40Z">
+        <test-method status="PASS" signature="enter_valid_username_and_invalid_password()[pri:2, instance:test.LoginTest@1bce4f0a]" name="enter_valid_username_and_invalid_password" duration-ms="4620" started-at="2022-03-11T10:23:36Z" finished-at="2022-03-11T10:23:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_username_and_invalid_password -->
-        <test-method status="PASS" signature="enter_invalid_username_and_valid_password()[pri:3, instance:test.LoginTest@3bfdc050]" name="enter_invalid_username_and_valid_password" duration-ms="4267" started-at="2022-03-11T10:04:40Z" finished-at="2022-03-11T10:04:44Z">
+        <test-method status="PASS" signature="enter_invalid_username_and_valid_password()[pri:3, instance:test.LoginTest@1bce4f0a]" name="enter_invalid_username_and_valid_password" duration-ms="4280" started-at="2022-03-11T10:23:40Z" finished-at="2022-03-11T10:23:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_invalid_username_and_valid_password -->
-        <test-method status="PASS" signature="enter_valid_username_and_empty_password()[pri:4, instance:test.LoginTest@3bfdc050]" name="enter_valid_username_and_empty_password" duration-ms="4237" started-at="2022-03-11T10:04:44Z" finished-at="2022-03-11T10:04:49Z">
+        <test-method status="PASS" signature="enter_valid_username_and_empty_password()[pri:4, instance:test.LoginTest@1bce4f0a]" name="enter_valid_username_and_empty_password" duration-ms="4253" started-at="2022-03-11T10:23:45Z" finished-at="2022-03-11T10:23:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_username_and_empty_password -->
-        <test-method status="PASS" signature="enter_invalid_username_and_empty_password()[pri:5, instance:test.LoginTest@3bfdc050]" name="enter_invalid_username_and_empty_password" duration-ms="4236" started-at="2022-03-11T10:04:49Z" finished-at="2022-03-11T10:04:53Z">
+        <test-method status="PASS" signature="enter_invalid_username_and_empty_password()[pri:5, instance:test.LoginTest@1bce4f0a]" name="enter_invalid_username_and_empty_password" duration-ms="4248" started-at="2022-03-11T10:23:49Z" finished-at="2022-03-11T10:23:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_invalid_username_and_empty_password -->
-        <test-method status="PASS" signature="enter_empty_username_and_valid_password()[pri:6, instance:test.LoginTest@3bfdc050]" name="enter_empty_username_and_valid_password" duration-ms="4208" started-at="2022-03-11T10:04:53Z" finished-at="2022-03-11T10:04:57Z">
+        <test-method status="PASS" signature="enter_empty_username_and_valid_password()[pri:6, instance:test.LoginTest@1bce4f0a]" name="enter_empty_username_and_valid_password" duration-ms="4291" started-at="2022-03-11T10:23:53Z" finished-at="2022-03-11T10:23:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_empty_username_and_valid_password -->
-        <test-method status="PASS" signature="enter_empty_username_and_invalid_password()[pri:7, instance:test.LoginTest@3bfdc050]" name="enter_empty_username_and_invalid_password" duration-ms="4395" started-at="2022-03-11T10:04:57Z" finished-at="2022-03-11T10:05:01Z">
+        <test-method status="PASS" signature="enter_empty_username_and_invalid_password()[pri:7, instance:test.LoginTest@1bce4f0a]" name="enter_empty_username_and_invalid_password" duration-ms="4256" started-at="2022-03-11T10:23:57Z" finished-at="2022-03-11T10:24:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_empty_username_and_invalid_password -->
-        <test-method status="PASS" signature="enter_empty_username_and_empty_password()[pri:8, instance:test.LoginTest@3bfdc050]" name="enter_empty_username_and_empty_password" duration-ms="4268" started-at="2022-03-11T10:05:01Z" finished-at="2022-03-11T10:05:06Z">
+        <test-method status="PASS" signature="enter_empty_username_and_empty_password()[pri:8, instance:test.LoginTest@1bce4f0a]" name="enter_empty_username_and_empty_password" duration-ms="4237" started-at="2022-03-11T10:24:02Z" finished-at="2022-03-11T10:24:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_empty_username_and_empty_password -->
-        <test-method status="PASS" signature="enter_invalid_username_and_invalid_password()[pri:9, instance:test.LoginTest@3bfdc050]" name="enter_invalid_username_and_invalid_password" duration-ms="4193" started-at="2022-03-11T10:05:06Z" finished-at="2022-03-11T10:05:10Z">
+        <test-method status="PASS" signature="enter_invalid_username_and_invalid_password()[pri:9, instance:test.LoginTest@1bce4f0a]" name="enter_invalid_username_and_invalid_password" duration-ms="4225" started-at="2022-03-11T10:24:06Z" finished-at="2022-03-11T10:24:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_invalid_username_and_invalid_password -->
-        <test-method status="PASS" signature="enter_valid_username_and_valid_password()[pri:10, instance:test.LoginTest@3bfdc050]" name="enter_valid_username_and_valid_password" duration-ms="1252" started-at="2022-03-11T10:05:10Z" finished-at="2022-03-11T10:05:11Z">
+        <test-method status="PASS" signature="enter_valid_username_and_valid_password()[pri:10, instance:test.LoginTest@1bce4f0a]" name="enter_valid_username_and_valid_password" duration-ms="1249" started-at="2022-03-11T10:24:10Z" finished-at="2022-03-11T10:24:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_username_and_valid_password -->
       </class> <!-- test.LoginTest -->
     </test> <!-- LoginTest -->
-  </suite> <!-- apiAutomationTestSuites -->
+  </suite> <!-- RegressionTest -->
 </testng-results>
